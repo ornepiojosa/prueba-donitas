@@ -220,7 +220,7 @@ h2 {
 }
 
 label {
-  color: red;
+  color: rgb(112, 112, 112);
   padding: 5px 15px 10px 48px;
   display: inline-block;
   position: relative;
@@ -246,7 +246,7 @@ label:before {
 
 .formulario input[type="radio"]:checked + label {
   padding: 5px 15px;
-  background-color: red;
+  background-color: #f6b4c6;
   border-radius: 30px;
   color: #fff;
 }
@@ -269,4 +269,67 @@ label:before {
 .pedidos {
   color: #fff;
   text-decoration: none;
+}
+
+h6 {
+  text-align: center;
+  font-size: 35px;
+  padding-top: 50px;
+  padding-bottom: 0px;
+}
+
+.contacto {
+  display: flex;
+  /* width: 1000px */
+  margin: auto;
+  padding: 50px;
+  flex-direction: column;
+  /* background-color: red; */
+}
+
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input {
+  border-radius: 30px;
+  font-size: 18px;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+  border: solid rgba(216, 216, 216, 0) 2px;
+}
+
+input:hover {
+  border: solid #56e0fa 2px;
+}
+
+.enviar-contacto {
+  display: flex;
+  font-size: 20px;
+}
+
+.enviar {
+  flex-basis: 20%;
+  padding: 10px 30px 10px 30px;
+  border-radius: 30px;
+  margin: 10px;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background-color: #56e0fa;
+}
+
+.content-foo {
+  background-color: #f6b4c6;
+  padding: 30px;
+  text-align: center;
+  justify-content: center;
+}
+
+h7 {
+  font-size: 20px;
+  color: #fff;
 }
