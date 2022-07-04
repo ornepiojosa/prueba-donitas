@@ -1,6 +1,8 @@
 * {
   margin: 0;
   padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
 }
 
 body {
@@ -126,8 +128,13 @@ h2 {
   justify-content: center;
 }
 
+.donas a {
+  color: #fff;
+}
+
 .donas {
-  width: 250px;
+  height: 300px;
+  width: 200px;
   display: flex;
   padding: 20px;
   border-radius: 50px;
@@ -135,6 +142,9 @@ h2 {
   box-shadow: 2px 2px 5px rgba(216, 216, 216, 0.7);
   border: solid #fbe3e3 2px;
   margin-top: 20px;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 
 .donas:hover {
@@ -146,7 +156,8 @@ h2 {
 }
 
 .donas img {
-  width: 250px;
+  width: 150px;
+  padding: 10px;
   transform: rotate(-36deg);
   transition: all 0.3s;
 }
@@ -160,38 +171,38 @@ h2 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 50px;
+  gap: 10px;
 }
 
 .dona2 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 50px;
+  gap: 10px;
 }
 
 .dona3 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 50px;
+  gap: 10px;
 }
 
 .boton-compra {
   display: flex;
-  margin-top: 30px;
+  margin-top: 10px;
   margin-left: 25px;
-  font-size: 25px;
+  font-size: 20px;
 }
 
 .comprar {
+  color: #fff;
   flex-basis: 30%;
   border-radius: 30px;
   padding: 10px 30px 10px 30px;
   margin-right: 20px;
   text-align: center;
   text-decoration: none;
-  color: #fff;
   background-color: #56e0fa;
 }
 
@@ -207,6 +218,8 @@ h2 {
 
 .formulario h4 {
   font-size: 15px;
+  padding: 30px;
+  color: #707070;
 }
 
 .formulario h5 {
@@ -257,18 +270,21 @@ label:before {
 
 .pedido {
   display: flex;
-  margin-top: 30px;
-  margin: 30px 280px 0px 280px;
-  padding: 5px 10px 5px 10px;
+  margin-top: 50px;
+  margin-left: 25px;
   font-size: 20px;
-  background-color: #56e0fa;
-  border-radius: 30px;
+  align-items: center;
   justify-content: center;
 }
 
 .pedidos {
   color: #fff;
   text-decoration: none;
+  padding: 10px 30px 10px 30px;
+  background-color: #56e0fa;
+  text-align: center;
+  border-radius: 30px;
+  flex-basis: 20%;
 }
 
 h6 {
